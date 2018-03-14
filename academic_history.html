@@ -1,16 +1,104 @@
-     <!DOCTYPE>
+ <!DOCTYPE html>
 <html>
 
+  <head>
+    <style>
+      * {
+        box-sizing: border-box;
+        font-family: sans-serif;
+      }
+      .header,
+      .footer {
+        background-color: coral;
+        color: white;
+        padding: 15px;
+      }
+      .column {
+        float: left;
+        padding: 15px;
+      }
+      .column img {
+        float: right;
+      }
+      .clearfix::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      .menu {
+        width: 20%;
+      }
+      .content {
+        width: 70%;
+        float: right;
+       
+       .more {
+          float: right;
+        }
+      }
+      .menu ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+      .menu li {
+        padding: 8px;
+        margin-bottom: 8px;
+        background-color: teal;
+        color: #ffffff;
+      }
+      .menu li:hover {
+        background-color: #0099cc;
+      }
+    </style>
+  </head>
+
   <body>
-    <div class="column content more">
-      <img src="https://www.surreyschools.ca/schools/envercreek/style%20Library/Images/114.jpg">
-      <h1>Academic History </h1>
-      <p> Academically i have actually achevied alot in school.In elementry school i got several fine arts awards and 2 honnor rolls.In high school so far, i recived two honnor rolls.My goal for the future is to hopefully get a scholarship or get into a great
-        universcity. </p>
+
+    <div class="header">
+      <h1> Electronic portfolio</h1>
+    </div>
+    <div class="clearfix">
+      <div class="column menu">
+        <ul>
+          <li><a herf="https;//Muskaan03.github.io/contact_information.html"> Contact information</a></li>
+          <li><a herf="https://Muskaan03.github.io/academic_history.html">Academic history</a></li>
+          <li><a herf="https://Muskaan03.github.io/volunteer_work.html">Volunteer work</a></li>
+        </ul>
+      </div>
+
+
+      <div class="column content">
+        <img 
+        src="https://www.surreyschools.ca/schools/envercreek/style%20library/images/114.jpg">
+        <h1> Contact Information</h1>
+        <p>Phone Number: 604-321-0987</p>
+        <p>Email Address: Muskaan03@icloud.com</p>
+        <p>Address: 1126 143st Surrey,BC
+        
+        </p>
+      </div>
+
+      <div class="column content more">
+        <img src="https://www.surreyschools.ca/schools/envercreek/style%20Library/Images/114.jpg">
+        <h1>Academic History </h1>
+      <p> Academically i have actually achevied alot in school.In elementry school i got several fine arts awards and 2 honnor rolls.In high school so far, i recived two honnor rolls.My goal for the future is to hopefully get a scholarship or get into a great universcity. </p>
+      </div>
+
+
+      <div class="column content more">
+        <img src="https://www.surreyschools.ca/schools/envercreek/style%20Library/Images/114.jpg">
+        <h1>Volunteer Work </h1>
+        <p> I have been volunteering for a long time, from teaching younger childern how to dance, to helping the homeless. I recently joined a group called Youth Transforming Society last summer in 2017 and helped them collect school supplies at the begining of the school year and some food for the food bank. </p>
+        <p> Last year i volunteered to teach younger children how to dance at the studio i dance at. It was an amazing experince. </p>
+      </div>
+
+    </div>
+
+    <div class="footer">
+      </p>
     </div>
 
   </body>
 
-</html>
-
-   
+</html>  
