@@ -7,27 +7,33 @@
         box-sizing: border-box;
         font-family: sans-serif;
       }
+
       .header,
       .footer {
         background-color: grey;
         color: lightblue;
         padding: 15px;
       }
+
       .column {
         float: left;
         padding: 15px;
       }
+
       .column img {
         float: right;
       }
+
       .clearfix::after {
         content: "";
         clear: both;
         display: table;
       }
+
       .menu {
         width: 20%;
       }
+
       .content {
         width: 70%;
         float: right;
@@ -35,20 +41,24 @@
           float: right;
         }
       }
+
       .menu ul {
         list-style-type: none;
         margin: 0;
         padding: 0;
       }
+
       .menu li {
         padding: 8px;
         margin-bottom: 8px;
         background-color: grey;
         color: #ffffff;
       }
+
       .menu li:hover {
         background-color: #0099cc;
       }
+
     </style>
   </head>
 
@@ -57,56 +67,104 @@
     <div class="header">
       <h1> HTML refrence</h1>
     </div>
-    
+
     <div class="column content more">
-    <h1>
+      <h1>
         Tags List
-    </h1>
-    <hr>
-   &lt;!DOCTYPE html&gt; <h4> - this tag defines the document type.
-   
-   Example:  &lt;!DOCTYPE html&gt;
-&lt;html&gt;
+      </h1>
+      <hr> &lt;!DOCTYPE html&gt;
+      <h4> - this tag defines the document type. Example: &lt;!DOCTYPE html&gt; &lt;html&gt; &lt;head&gt; &lt;title&gt;Title of the document &lt;/title&gt; &lt;/head&gt;
+
+      </h4>
+
+      &lt;!--...--&gt;
+      <h4>
+        -this tag defines a comment. Example: &lt;!--This is a comment. Comments are not displayed in the browser--&gt;
+      </h4>
+      &lt;p&gt;
+      <h4>
+        -this tag defines a paragraph. Example: &lt;p &gt;This is some text in a paragraph.&lt;/p&gt;
+      </h4>
+
+      &lt;video&gt;
+      <h4>
+        -this tag defines a video or movie. Example: &lt;video width="320" height="240" controls&gt; &lt;source src="movie.mp4" type="video/mp4"&gt; &lt;source src="movie.ogg" type="video/ogg"&gt; Your browser does not support the video tag. &lt;/video&gt;
+      </h4>
+
+      &lt;tittle&gt;
+      <h4>
+        -this tag defines a title for the document. Example: &lt;title&gt;HTML Reference&lt;/title&gt;
+      </h4>
+
+      &lt;style&gt;
+
+      <h4>
+        -this tag defines style information for a document. Example: &lt;html&gt; &lt;head&gt; &lt;style&gt; h1 {color:red;} p {color:blue;} &lt;/style&gt; &lt;/head&gt; &lt;body&gt;
+      </h4>
+
+      &lt;b&gt;
+
+      <h4>
+        -this tag defines bold text. Example: &lt;p&gt; this is a normal text -&lt;b&gt; this is a bold text&lt;/b&gt;&lt;/p&gt;
+      </h4>
+
+      &lt;header&gt;
+      <h4>
+        -this tag defines header for a document or section. Example: &lt;header&gt; &lt;h1&gt;Most important heading here&lt;/h1&gt; &lt;h3&gt;Less important heading here&lt;/h3&gt; &lt;p&gt;Some additional information here&lt;/p&gt; &lt;/header&gt;
+      </h4>
+
+      &lt;h1&gt; to &lt;h6&gt;
+      <h4>
+        -this tag defines HTML headings. Example: &lt;h1&gt;This is heading 1&lt;/h1&gt; &lt;h2&gt;This is heading 2&lt;/h2&gt; &lt;h3&gt;This is heading 3&lt;/h3&gt; &lt;h4&gt;This is heading 4&lt;/h4&gt; &lt;h5&gt;This is heading 5 &lt;/h5&gt; &lt;h6&gt;This
+        is heading 6&lt;/h6&gt;
+      </h4>
+
+      &lt;img&gt;
+      <h4>
+        -this tag defines a image. Example: &lt;img src="smiley.gif" alt="Smiley face" height="42" width="42"&gt; 
+        </h4>
+        
+        &lt;div&gt;
+        <h4>
+          -this tag defines a section of a document. Example: &lt;div style="background-color:lightblue"&gt; &lt;h3>This is a heading&lt;/h3&gt; &lt;p&gt;This is a paragraph.&lt;/p&gt; &lt;/div&gt;
+        </h4>
+        
+        &lt;body&gt;
+        <h4>
+        -this tag defines the body of a document. Example:
+        &lt;html&gt;
 &lt;head&gt;
-&lt;title&gt;Title of the document &lt;/title&gt;
+&lt;title&gt;Title of the document&lt;/title&gt;
 &lt;/head&gt;
-   
-   </h4>
-    
-    &lt;!--...--&gt;
-    <h4>
-     -this tag defines a comment.
-     Example: &lt;!--This is a comment. Comments are not displayed in the browser--&gt;
-    </h4>
-    &lt;p&gt;
-    <h4>
-    -this tag defines a paragraph. Example: &lt;p &gt;This is some text in a paragraph.&lt;/p&gt;
-    </h4>
-    
-    &lt;video&gt;
-    <h4>
-    -this tag defines a video or movie. Example: &lt;video width="320" height="240" controls&gt;
-  &lt;source src="movie.mp4" type="video/mp4"&gt;
-  &lt;source src="movie.ogg" type="video/ogg"&gt;
-  Your browser does not support the video tag.
-&lt;/video&gt;
-    </h4>
-    
-    &lt;tittle&gt;
-    <h4>
-    -this tag defines a title for the document. Example: &lt;title&gt;HTML Reference&lt;/title&gt;
-    </h4>
-    
-    &lt;style&gt; 
-    
-    <h4>
-    -this tag defines style information for a document. Example: &lt;html&gt;
-&lt;head&gt;
-&lt;style&gt;
-h1 {color:red;}
-p {color:blue;}
-&lt;/style&gt;
-&lt;/head&gt;
+
 &lt;body&gt;
-    </h4>
-    
+The content of the document......
+&lt;/body&gt;
+
+&lt;/html&gt;
+        </h4>
+        
+        &lt;footer&gt;
+        
+        <h4>
+        -this tag defines the footer of the document or section. Example: &lt;footer&gt;
+  &lt;p&gt;Posted by: Hege Refsnes&lt;/p&gt;
+  &lt;p&gt;Contact information: &lt;a href="mailto:someone@example.com"&gt;
+  someone@example.com&lt;/a&gt;.&lt;/p&gt;
+
+&lt;/footer&gt;
+
+        </h4>
+&lt;a&gt;
+<h4>
+-this tag define a hyperlink. Example: &lt;a href="https://www.w3schools.com"&gt;Visit W3Schools.com!&lt;/a&gt;
+</h4>
+
+&lt;li&gt;
+<h4>
+-this tag defines a list item.          
+Example: &lt;li&gt;Coffee&lt;/li&gt;
+  &lt;li&gt;Tea&lt;/li&gt;
+  &lt;li&gt;Milk&lt;/li&gt;
+</h4>
+
